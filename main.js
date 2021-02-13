@@ -48,7 +48,7 @@ const fetchIssues = () => {
     let style = '';
     if(status === 'Closed') {
       style = `text-decoration: line-through; 
-               text-decoration-color: red;
+               text-decoration-color: red; 
                text-decoration-style: double;
               `;
     }
